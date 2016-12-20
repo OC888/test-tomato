@@ -20,6 +20,7 @@
   UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:view];
+    [self.view setHidden:1];
 }
 
 
